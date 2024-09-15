@@ -1,0 +1,83 @@
+.primary-color {
+    background-color: #f4ece6;
+}
+
+
+.card-outline {
+    border: solid black 2px;
+    padding: 0 0.9rem;
+    margin: 2rem 1rem;
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.remove-ul-bullet-point {
+    list-style-type: none;
+    padding: 0;
+}
+
+.form input[type='text']{
+    display: block;
+}
+
+/* Utility class for buttons */
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Utility class for input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Utility class for full-width block elements */
+.full-width {
+    width: 100%;
+}
+
+/* Utility class for block labels */
+.label-bold {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: 100%;
+    display: inherit;
+}
+@media (min-width: 60rem) {
+    .main-content {
+        flex-basis: 60%;
+    }
+}

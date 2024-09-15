@@ -1,0 +1,51 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.personal-info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal-photo {
+    background-image: url('/public/fake-person.jpg');
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.personal-info-description {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-width: 40rem) {
+    .home-container {
+        justify-content: center;
+    }
+
+    .personal-info-card {
+        flex-direction: row;
+        min-width: 499px
+    }
+
+    .personal-info-description {
+        font-size: 2rem;
+    }
+
+    .photo-container {
+        align-self: center;
+    }
+}
