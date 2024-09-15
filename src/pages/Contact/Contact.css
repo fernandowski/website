@@ -3,27 +3,26 @@
     margin-top: 0.5rem;
     padding: 8px 60px;
     font-size: 1rem;
-    border: none;
+    font-weight: bold;
+    border-color: black;
     border-radius: 5px;
     cursor: pointer;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
-    color: #d26161;
-    background-color: rgba(17, 1, 8, 0.13);
+    color: rgba(204, 85, 0, 1);
+    background-color: rgba(255, 255, 255, 1)
 }
 
 .submit-button-container {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
-.button:hover {
-    background-color: #0c00b3;
+.submit-button:hover {
+    background-color: rgba(223, 214, 232, 0.44);
 }
 
-.button:active {
-    background-color: #004494; /* Even darker when clicked */
-}
 
 .form-control-group label {
     margin-top: 5rem;
@@ -47,8 +46,13 @@
 .form-control-group input[type='email']:focus,
 .form-control-group textarea:focus {
     outline: none;
-    background: rgba(238, 163, 163, 0.53);
+    background: rgba(163, 184, 238, 0.53);
     border-color: white;
+    border-radius: 5px;
+}
+
+.form-control-group input {
+    padding: 8px;
 }
 
 .form-control-group textarea {
